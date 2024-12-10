@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+    align-items: center;
+
+}
+.links{
+    display: flex;
+    gap: 10px;
+}
+.hero{
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 10px;
+}
+.container{
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.recommendedJobs{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.jobsContainer{
+    display: flex;
+    flex-direction: column;
+    // width: 318px;
+    // height: 354px;
+}
+.jobsHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width: 70px;
+    height: 30px;
+    box-sizing: border-box;
+
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+.location{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    height: 20px;
+}
