@@ -28,8 +28,6 @@
 .jobsContainer{
     display: flex;
     flex-direction: column;
-    // width: 318px;
-    // height: 354px;
 }
 .jobsHeader{
     display: flex;
@@ -66,7 +64,12 @@
 .verticlaImages{
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 30px;
+    img{
+        max-width: 100px;
+        max-height: 100px;
+        margin: 0 0 100px 0;
+    }
 }
 .centerImage{
     display: flex;
