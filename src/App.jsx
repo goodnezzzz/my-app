@@ -3,7 +3,8 @@ import Header from "./components/Header";
 import Hero from "./components/Hero"
 import Jobs from './components/Jobs'
 import Work from './components/Works'
-
+import Popular from './components/Popular'
+import Ad from './components/Ad'
 function App() {
 
     return (
@@ -12,6 +13,8 @@ function App() {
        <Hero />
        <Jobs />
        <Work />
+       <Popular />
+       <Ad />
       </div>
     );
 }
