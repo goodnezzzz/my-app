@@ -3,6 +3,7 @@ body{
     padding: 0 30px;
     margin: none;
     background-color: rgb(255, 255, 255);
+    font-weight: 400;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header{
@@ -11,6 +12,12 @@ body{
     box-sizing: border-box;
     padding: 10px 40px 10px 0;
     align-items: center;
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
 
     .logIn{
         background-color: #06942A33;
@@ -62,6 +69,16 @@ body{
     padding: 20px;
     gap: 10px;
     border: 1px solid rgb(207, 203, 203);
+
+    button{
+        width: 80px;
+        height: 30px;
+        background-color: #06942A33;
+        color: #06942A;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
 }
 
 .jobsHeader{
@@ -126,6 +143,10 @@ body{
     box-sizing: border-box;
 }
 
+.popularHeader{
+    text-align: center;
+}
+
 .popularContainer{
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +156,7 @@ body{
 .popularCard{
     width: 296px;
     height: 275px;
-    border: 1px solid grey;
+    border: 1px solid rgb(215, 214, 214);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,4 +215,81 @@ body{
         max-height: 100%;
         max-width: 100%;
     }
+}
+
+.customerDetails{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+
+    .infoText{
+        width: 500px;
+    }
+
+    .nameText{
+        font-weight: bolder;
+    }
+
+    .titleText{
+        color: grey;
+    }
+}
+
+.promoImage{
+    box-sizing: border-box;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    .footerImage{
+        width: 68px;
+        height: 68px;
+        margin-bottom: 0;
+        box-sizing: border-box;
+
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .footerIcon{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+
+        p{
+            color: rgb(70, 70, 70);
+        }
+    }
+
+    .footerSection{
+        display: flex;
+        flex-direction: column;
+
+        .footerHeader{
+            font-weight: bolder;
+        }
+
+        .footerItem{
+            color: rgb(70, 70, 70);
+            margin: 5px;
+        }
+    }
+ 
+}
+.iconContainer{
+    display: flex;
+}
+
+.copyright{
+    color:  rgb(70, 70, 70);
+    text-align: center;
+    margin-top: 60px;
 }

@@ -15,8 +15,10 @@ export default function Header() {
                 <p>Post a Job</p>
                 <p>Career Advice</p>
             </div>
-            <div className="signUp">Sign Up</div>
-            <div className="logIn">Log In</div>
+            <div className="buttons">
+                <div className="signUp">Sign Up</div>
+                <div className="logIn">Log In</div>
+            </div>
         </div>
     )
 

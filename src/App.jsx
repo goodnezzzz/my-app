@@ -5,6 +5,9 @@ import Jobs from './components/Jobs'
 import Work from './components/Works'
 import Popular from './components/Popular'
 import Ad from './components/Ad'
+import Customers from './components/Customers'
+import Footer from './components/Footer'
+
 function App() {
 
     return (
@@ -15,6 +18,8 @@ function App() {
        <Work />
        <Popular />
        <Ad />
+       <Customers />
+       <Footer />
       </div>
     );
 }

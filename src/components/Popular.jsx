@@ -11,72 +11,67 @@ import DataImage from '../assets/data.png'
 
 const Popular = () => {
   return (
-    <div className='popularContainer'>
-        <div className='popularCard'>
-            <div>
-                <img src={GasImage} alt="" />
+    <>
+        <h3 className='popularHeader'>Popular Jobs</h3>
+        <div className='popularContainer'>
+            <div className='popularCard'>
+                <div>
+                    <img src={GasImage} alt="" />
+                </div>
+                <p className='popularName'>Oil and Gas</p>
+                <p className='popularInfo'>(20 new jobs)</p>
             </div>
-            <p className='popularName'>Oil and Gas</p>
-            <p className='popularInfo'>(20 new jobs)</p>
-        </div>
-
-        <div className='popularCard'>
-            <div>
-                <img src={HealthImage} alt="" />
+            <div className='popularCard'>
+                <div>
+                    <img src={HealthImage} alt="" />
+                </div>
+                <p className='popularName'>Health Care</p>
+                <p className='popularInfo'>(10 new jobs)</p>
             </div>
-            <p className='popularName'>Health Care</p>
-            <p className='popularInfo'>(10 new jobs)</p>
-        </div>
-
-        <div className='popularCard'>
-            <div>
-                <img src={EducationImage} alt="" />
+            <div className='popularCard'>
+                <div>
+                    <img src={EducationImage} alt="" />
+                </div>
+                <p className='popularName'>Eduaction</p>
+                <p className='popularInfo'>(10 new jobs)</p>
             </div>
-            <p className='popularName'>Eduaction</p>
-            <p className='popularInfo'>(10 new jobs)</p>
-        </div>
-
-        <div className='popularCard'>
-            <div>
-                <img src={AccountImage} alt="" />
+            <div className='popularCard'>
+                <div>
+                    <img src={AccountImage} alt="" />
+                </div>
+                <p className='popularName'>Accounting</p>
+                <p className='popularInfo'>(20 new jobs)</p>
             </div>
-            <p className='popularName'>Accounting</p>
-            <p className='popularInfo'>(20 new jobs)</p>
-        </div>
-
-        <div className='popularCard'>
-            <div>
-                <img src={DesignImage} alt="" />
+            <div className='popularCard'>
+                <div>
+                    <img src={DesignImage} alt="" />
+                </div>
+                <p className='popularName'>Design, Art and Multimedia</p>
+                <p className='popularInfo'>(12 new jobs)</p>
             </div>
-            <p className='popularName'>Design, Art and Multimedia</p>
-            <p className='popularInfo'>(12 new jobs)</p>
-        </div>
-
-        <div className='popularCard'>
-            <div>
-                <img src={TechImage} alt="" />
+            <div className='popularCard'>
+                <div>
+                    <img src={TechImage} alt="" />
+                </div>
+                <p className='popularName'>Technology</p>
+                <p className='popularInfo'>(15 new jobs)</p>
             </div>
-            <p className='popularName'>Technology</p>
-            <p className='popularInfo'>(15 new jobs)</p>
-        </div>
-
-        <div className='popularCard'>
-            <div>
-                <img src={Security} alt="" />
+            <div className='popularCard'>
+                <div>
+                    <img src={Security} alt="" />
+                </div>
+                <p className='popularName'>Security</p>
+                <p className='popularInfo'>(10 new jobs)</p>
             </div>
-            <p className='popularName'>Security</p>
-            <p className='popularInfo'>(10 new jobs)</p>
-        </div>
-
-        <div className='popularCard'>
-            <div>
-                <img src={DataImage} alt="" />
+            <div className='popularCard'>
+                <div>
+                    <img src={DataImage} alt="" />
+                </div>
+                <p className='popularName'>Data Analyst</p>
+                <p className='popularInfo'>(10 new jobs)</p>
             </div>
-            <p className='popularName'>Data Analyst</p>
-            <p className='popularInfo'>(10 new jobs)</p>
         </div>
-
-    </div>
+    </>
   )
 }
 
