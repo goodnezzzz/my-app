@@ -12,7 +12,7 @@ import DataImage from '../assets/data.png'
 const Popular = () => {
   return (
     <>
-        <h3 className='popularHeader'>Popular Jobs</h3>
+        <h2 className='popularHeader'>Popular Jobs</h2>
         <div className='popularContainer'>
             <div className='popularCard'>
                 <div>
